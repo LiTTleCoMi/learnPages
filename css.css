@@ -74,6 +74,14 @@ box-shadow: 10px 13px 15px 10px whitesmoke
   justify-content: center;
   align-items: center;
 }
+.title-image-left > img {
+  width: 300px;
+  height: 300px;
+}
+.title-image-right > img {
+  width: 300px;
+  height: 300px;
+}
 
 /*             */
 /*             */
