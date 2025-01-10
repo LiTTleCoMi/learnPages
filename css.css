@@ -1,12 +1,12 @@
 body {
-    background-color: #515151;
+    background-color: #542121;
     color: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
    }
 h1 {
 text-align: center;
-font-size: 9em;
+font-size: 5em;
 div {
     width: 100%;
 }
@@ -17,17 +17,17 @@ text-align: center;
 #mtech {
 padding-top: 75px;
 /* border: 5px solid whitesmoke; */
-background-color: #484848;
+background-color: #4c2d2d;
 width: 100%;
 height: 1100px;
 text-align: center;
 }
 #mtech:hover{
-background-color: #303030;
+background-color: #462222;
 }
 #rotate {
 width: 450px;
-height: 550px;
+height: 450px;
 border-radius: 80em 80em 80em 80em;
 border: 2px solid whitesmoke;
 box-shadow: 10px 13px 15px 10px whitesmoke
@@ -41,7 +41,8 @@ box-shadow: 10px 13px 15px 10px whitesmoke
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #303030;
+    background-color: #2e1e1e;
+    box-shadow: 0 10px 90px rgb(59, 23, 23);
 }
 .nav-links {
     width: 20%;
@@ -51,10 +52,14 @@ box-shadow: 10px 13px 15px 10px whitesmoke
 }
 .nav-links > a {
     margin: 0 auto;
+    padding: 3px 0;
     font-size: 20px;
     letter-spacing: 1.5px;
     text-decoration: none;
     color: #d07373;
+}
+.nav-links > a:hover {
+    border-bottom: 2px solid #d07373;
 }
 
 #nav-img {
