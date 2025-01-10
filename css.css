@@ -60,7 +60,14 @@ box-shadow: 10px 13px 15px 10px whitesmoke
 #nav-img {
     height: 80px;
     width: 80px;
-    margin: 0 50px;
+    margin: 0 5vw;
+}
+.nav-img-container {
+  height: 100%;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*             */
@@ -96,12 +103,5 @@ to {
 }
 
 
-#rotate:hover {
--webkit-animation: rotating 2s linear infinite;
--moz-animation: rotating 2s linear infinite;
--ms-animation: rotating 2s linear infinite;
--o-animation: rotating 2s linear infinite;
-animation: rotating 2s linear infinite;
-background-color: snow;
-box-shadow: 10px 13px 15px 10px maroon
+#rotate:hover { -webkit-animation: rotating 4s linear infinite; -moz-animation: rotating 4s linear infinite; -ms-animation: rotating 4s linear infinite; -o-animation: rotating 4s linear infinite; animation: rotating 4s linear infinite; background-color: snow; box-shadow: 10px 13px 15px 10px #444;
 }
